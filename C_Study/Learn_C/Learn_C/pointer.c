@@ -21,6 +21,14 @@ void pointer_example1(void) {
     printf("a = %d, b = %d \n", a, b);
 }
 
+void pointer_example2(void) {
+    struct book {
+        char a;
+        int b;
+    };
+}
+
 void pointer_example(void) {
-    pointer_example1();
+//    pointer_example1();
+    pointer_example2();
 }
