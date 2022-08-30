@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-void interchanger(int *u, int *v);
+void pointer_example(void);
 
 #endif /* pointer_h */

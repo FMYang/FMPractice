@@ -14,3 +14,13 @@ void interchanger(int *u, int *v) {
     *u = *v;
     *v = temp;
 }
+
+void pointer_example1(void) {
+    int a = 5, b = 10;
+    interchanger(&a, &b);
+    printf("a = %d, b = %d \n", a, b);
+}
+
+void pointer_example(void) {
+    pointer_example1();
+}

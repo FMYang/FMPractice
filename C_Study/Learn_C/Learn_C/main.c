@@ -12,21 +12,9 @@
 void up_and_down(int);
 
 int main(int argc, const char * argv[]) {
-//    printf("argc = %d\n", argc);
-//
-//    int i=1;
-//    while (i<48) {
-//        printf("%d: %s\n", i, *argv);
-//        argv++;
-//        i++;
-//    }
+//    up_and_down(1);
     
-    up_and_down(1);
-    
-    int a = 10, b = 5;
-    interchanger(&a, &b);
-    printf("a = %d, b = %d\n", a, b);
-    
+    pointer_example();
     array_example();
     
     return 0;
