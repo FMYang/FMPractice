@@ -10,6 +10,7 @@
 		E42B8AF728AB7B2700048F89 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E42B8AF628AB7B2700048F89 /* main.c */; };
 		E42B8AFF28ABA7F700048F89 /* pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = E42B8AFE28ABA7F700048F89 /* pointer.c */; };
 		E42B8B0228ABA96700048F89 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = E42B8B0128ABA96700048F89 /* array.c */; };
+		E4EA873D28BEFA29001E7E6B /* struct.c in Sources */ = {isa = PBXBuildFile; fileRef = E4EA873C28BEFA29001E7E6B /* struct.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		E42B8AFE28ABA7F700048F89 /* pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer.c; sourceTree = "<group>"; };
 		E42B8B0028ABA96700048F89 /* array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
 		E42B8B0128ABA96700048F89 /* array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
+		E4EA873B28BEFA29001E7E6B /* struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struct.h; sourceTree = "<group>"; };
+		E4EA873C28BEFA29001E7E6B /* struct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struct.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				E42B8AFE28ABA7F700048F89 /* pointer.c */,
 				E42B8B0028ABA96700048F89 /* array.h */,
 				E42B8B0128ABA96700048F89 /* array.c */,
+				E4EA873B28BEFA29001E7E6B /* struct.h */,
+				E4EA873C28BEFA29001E7E6B /* struct.c */,
 			);
 			path = Learn_C;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			files = (
 				E42B8B0228ABA96700048F89 /* array.c in Sources */,
 				E42B8AF728AB7B2700048F89 /* main.c in Sources */,
+				E4EA873D28BEFA29001E7E6B /* struct.c in Sources */,
 				E42B8AFF28ABA7F700048F89 /* pointer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

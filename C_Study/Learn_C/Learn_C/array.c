@@ -95,9 +95,11 @@ void array_example5(void) {
 
 ///
 void array_example(void) {
+    printf("============= 数组 ==============\n");
 //    array_example1();
 //    array_example2();
 //    array_example3();
 //    array_example4();
     array_example5();
+    printf("============= End ==============\n\n");
 }
