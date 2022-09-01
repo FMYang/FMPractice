@@ -9,6 +9,7 @@
 #include "pointer.h"
 #include "array.h"
 #include "struct.h"
+#include "bit.h"
 
 void up_and_down(int);
 
@@ -18,6 +19,7 @@ int main(int argc, const char * argv[]) {
     pointer_example();
     array_example();
     struct_example();
+    bit_example();
     
     return 0;
 }
