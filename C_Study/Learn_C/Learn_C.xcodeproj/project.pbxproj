@@ -12,6 +12,7 @@
 		E42B8B0228ABA96700048F89 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = E42B8B0128ABA96700048F89 /* array.c */; };
 		E4EA873D28BEFA29001E7E6B /* struct.c in Sources */ = {isa = PBXBuildFile; fileRef = E4EA873C28BEFA29001E7E6B /* struct.c */; };
 		E4EA874028BF5E42001E7E6B /* bit.c in Sources */ = {isa = PBXBuildFile; fileRef = E4EA873F28BF5E42001E7E6B /* bit.c */; };
+		E4EEF12428C0651F00512532 /* ADT.c in Sources */ = {isa = PBXBuildFile; fileRef = E4EEF12328C0651F00512532 /* ADT.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		E4EA873C28BEFA29001E7E6B /* struct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struct.c; sourceTree = "<group>"; };
 		E4EA873E28BF5E42001E7E6B /* bit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bit.h; sourceTree = "<group>"; };
 		E4EA873F28BF5E42001E7E6B /* bit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bit.c; sourceTree = "<group>"; };
+		E4EEF12228C0651F00512532 /* ADT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADT.h; sourceTree = "<group>"; };
+		E4EEF12328C0651F00512532 /* ADT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ADT.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				E4EA873C28BEFA29001E7E6B /* struct.c */,
 				E4EA873E28BF5E42001E7E6B /* bit.h */,
 				E4EA873F28BF5E42001E7E6B /* bit.c */,
+				E4EEF12228C0651F00512532 /* ADT.h */,
+				E4EEF12328C0651F00512532 /* ADT.c */,
 			);
 			path = Learn_C;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 				E42B8B0228ABA96700048F89 /* array.c in Sources */,
 				E42B8AF728AB7B2700048F89 /* main.c in Sources */,
 				E4EA873D28BEFA29001E7E6B /* struct.c in Sources */,
+				E4EEF12428C0651F00512532 /* ADT.c in Sources */,
 				E42B8AFF28ABA7F700048F89 /* pointer.c in Sources */,
 				E4EA874028BF5E42001E7E6B /* bit.c in Sources */,
 			);

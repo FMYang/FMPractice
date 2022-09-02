@@ -372,7 +372,7 @@ void struct_example(void) {
 //    struct_example5();
 //    struct_example6();
 //    struct_example7();
-    struct_example8();
+//    struct_example8();
     printf("============= End ==============\n\n");
 }
 

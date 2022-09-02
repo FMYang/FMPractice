@@ -10,6 +10,7 @@
 #include "array.h"
 #include "struct.h"
 #include "bit.h"
+#include "ADT.h"
 
 void up_and_down(int);
 
@@ -20,6 +21,7 @@ int main(int argc, const char * argv[]) {
     array_example();
     struct_example();
     bit_example();
+    ADT_example();
     
     return 0;
 }
