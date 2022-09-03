@@ -1,16 +1,16 @@
 //
-//  ADT.c
+//  list.c
 //  Learn_C
 //
 //  Created by yfm on 2022/9/1.
 //
-//  抽象数据类型（ADT）
+//  抽象数据类型 - 链表
 
-#include "ADT.h"
+#include "list.h"
 #include <stdbool.h> /* C99特性      */
 #include <stdlib.h>  // 提供 malloc()、free() 的原型
 
-void ADT_example1(void) {
+void list_example1(void) {
     // 链表
     struct film {
         char title[40];
@@ -32,7 +32,6 @@ void ADT_example1(void) {
     }
 }
 
-// ------------ 链表抽象定义及操作 ----------
 typedef struct node {
     int data;
     struct node *next;
@@ -135,7 +134,7 @@ void reverse(List *list) {
     }
 }
 
-void ADT_example2(void) {
+void list_example2(void) {
     List p = NULL; // 初始化链表
 //    InitializeList(&p);
     if(ListIsFull(p)) return;
@@ -146,9 +145,9 @@ void ADT_example2(void) {
     reverse(&p);
 }
 
-void ADT_example(void) {
-    printf("============= 抽象数据类型 ==============\n");
-//    ADT_example1();
-    ADT_example2();
+void list_example(void) {
+    printf("============= 链表 ==============\n");
+//    list_example1();
+    list_example2();
     printf("============= End ==============\n\n");
 }
