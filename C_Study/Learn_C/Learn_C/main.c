@@ -12,6 +12,7 @@
 #include "bit.h"
 #include "list.h"
 #include "queue.h"
+#include "tree.h"
 
 void up_and_down(int);
 
@@ -24,6 +25,7 @@ int main(int argc, const char * argv[]) {
     bit_example();
     list_example();
     queue_example();
+    tree_example();
     
     return 0;
 }
