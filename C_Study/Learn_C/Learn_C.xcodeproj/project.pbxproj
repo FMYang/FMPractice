@@ -10,6 +10,7 @@
 		E42B8AF728AB7B2700048F89 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E42B8AF628AB7B2700048F89 /* main.c */; };
 		E42B8AFF28ABA7F700048F89 /* pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = E42B8AFE28ABA7F700048F89 /* pointer.c */; };
 		E42B8B0228ABA96700048F89 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = E42B8B0128ABA96700048F89 /* array.c */; };
+		E4A1082228C5CC8E009865AA /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = E4A1082128C5CC8E009865AA /* stack.c */; };
 		E4EA873D28BEFA29001E7E6B /* struct.c in Sources */ = {isa = PBXBuildFile; fileRef = E4EA873C28BEFA29001E7E6B /* struct.c */; };
 		E4EA874028BF5E42001E7E6B /* bit.c in Sources */ = {isa = PBXBuildFile; fileRef = E4EA873F28BF5E42001E7E6B /* bit.c */; };
 		E4EEF12428C0651F00512532 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = E4EEF12328C0651F00512532 /* list.c */; };
@@ -36,6 +37,8 @@
 		E42B8AFE28ABA7F700048F89 /* pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer.c; sourceTree = "<group>"; };
 		E42B8B0028ABA96700048F89 /* array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
 		E42B8B0128ABA96700048F89 /* array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
+		E4A1082028C5CC8E009865AA /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		E4A1082128C5CC8E009865AA /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		E4EA873B28BEFA29001E7E6B /* struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struct.h; sourceTree = "<group>"; };
 		E4EA873C28BEFA29001E7E6B /* struct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struct.c; sourceTree = "<group>"; };
 		E4EA873E28BF5E42001E7E6B /* bit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bit.h; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				E4EEF12928C1A64D00512532 /* queue.c */,
 				E4EEF12B28C1DD8E00512532 /* tree.h */,
 				E4EEF12C28C1DD8E00512532 /* tree.c */,
+				E4A1082028C5CC8E009865AA /* stack.h */,
+				E4A1082128C5CC8E009865AA /* stack.c */,
 			);
 			path = Learn_C;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				E42B8B0228ABA96700048F89 /* array.c in Sources */,
 				E42B8AF728AB7B2700048F89 /* main.c in Sources */,
 				E4EA873D28BEFA29001E7E6B /* struct.c in Sources */,
+				E4A1082228C5CC8E009865AA /* stack.c in Sources */,
 				E4EEF12A28C1A64D00512532 /* queue.c in Sources */,
 				E4EEF12428C0651F00512532 /* list.c in Sources */,
 				E42B8AFF28ABA7F700048F89 /* pointer.c in Sources */,

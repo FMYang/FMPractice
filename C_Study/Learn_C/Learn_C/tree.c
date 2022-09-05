@@ -4,7 +4,12 @@
 //
 //  Created by yfm on 2022/9/2.
 //
-//  二叉查找树，树不许有重复项。二叉查找树是一个有序的二叉树，每个节点包含一个项。
+//  二叉搜索树，树不许有重复项。二叉查找树是一个有序的二叉树，每个节点包含一个项。
+//
+//  二叉搜索树满足如下性质：
+//  1.左子树所有节点的元素值均小于根的元素值；
+//  2.右子树所有节点的元素值均大于根的元素值。
+//
 
 #include "tree.h"
 #include <stdbool.h>
@@ -34,7 +39,7 @@ void InitializeTree(Tree *ptree) {
 }
 
 bool TreeIsEmpty(const Tree *ptree) {
-    return ptree->size == 0;
+    return ptree->root == NULL;
 }
 
 bool TreeIsFull(const Tree *ptree) {
@@ -158,11 +163,14 @@ void treepfun(int data) {
     printf("data = %d\n", data);
 }
 
+// 遍历树，对每个节点应用一个函数
 static void InOrder(const TrNode *root, void(*pfun)(int item)) {
     if(root != NULL) {
+        (*pfun)(root->data); // 1.先序遍历（根左右）
         InOrder(root->left, treepfun);
-        (*pfun)(root->data);
+//        (*pfun)(root->data); // 2.中序遍历（左根右）
         InOrder(root->right, pfun);
+//        (*pfun)(root->data); // 3.后序遍历（左右根）
     }
 }
 
@@ -190,20 +198,37 @@ void DeleteAll(Tree * ptree) {
     }
 }
 
+/**
+ 给定二叉搜索树（BST）的根节点 root 和一个整数值 val。
+ 
+ 你需要在 BST 中找到节点值等于 val 的节点。 返回以该节点为根的子树。 如果节点不存在，则返回 null 。
+ 
+ https://leetcode.cn/problems/search-in-a-binary-search-tree
+ */
+TrNode * searchBST(TrNode* root, int val) {
+    if(root == NULL) return NULL;
+    if(root->data == val) return root;
+    return searchBST(val < root->data ? root->left : root->right , val);
+}
+
 void tree_example1(void) {
     Tree tree;
     InitializeTree(&tree);
-    int i = 5;
-    AddTreeItem(&i, &tree);
-    i = 4;
-    AddTreeItem(&i, &tree);
-    i = 2;
-    AddTreeItem(&i, &tree);
-    i = 3;
-    AddTreeItem(&i, &tree);
-    i = 6;
-    AddTreeItem(&i, &tree);
-    
+    int elements[5] = { 4, 2, 1, 3, 7};
+    for(int i=0; i<5; i++) {
+        AddTreeItem(&elements[i], &tree);
+    }
+    TraverseTree(&tree, treepfun);
+}
+
+// leecode700
+void tree_example2(void) {
+    Tree tree;
+    InitializeTree(&tree);
+    int elements[5] = { 4, 2, 1, 3, 7};
+    for(int i=0; i<5; i++) {
+        AddTreeItem(&elements[i], &tree);
+    }
     TraverseTree(&tree, treepfun);
 }
 
