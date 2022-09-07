@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4A1085A28C8750A009865AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4A1085928C8750A009865AA /* main.cpp */; };
+		E4A1086528C89493009865AA /* marray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4A1086328C89493009865AA /* marray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E4A1085628C8750A009865AA /* C++_Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++_Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A1085928C8750A009865AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E4A1086328C89493009865AA /* marray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = marray.cpp; sourceTree = "<group>"; };
+		E4A1086428C89493009865AA /* marray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = marray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E4A1085928C8750A009865AA /* main.cpp */,
+				E4A1086328C89493009865AA /* marray.cpp */,
+				E4A1086428C89493009865AA /* marray.hpp */,
 			);
 			path = "C++_Study";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4A1085A28C8750A009865AA /* main.cpp in Sources */,
+				E4A1086528C89493009865AA /* marray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
