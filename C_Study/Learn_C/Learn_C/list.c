@@ -126,7 +126,7 @@ void reverse(List *list) {
         prev = cur;
         cur = next;
     }
-    
+
     printf("反转链表：\n");
     while (prev != NULL) {
         printf("data = %d\n", prev->data);

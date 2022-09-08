@@ -20,6 +20,28 @@
 
 void up_and_down(int);
 
+/** 计算阶乘2种方式 */
+// 迭代
+int f(int n) {
+    int sum = 1;
+    for(int i = n; i > 0; i--) {
+        sum *= i;
+    }
+    return sum;
+}
+
+// 递归
+int f1(int n) {
+    if(n == 1) return 1;
+    return n * f1(n - 1);
+}
+
+// 尾递归
+int f2(int n, int sum) {
+    if(n == 1) return sum;
+    return f2(n-1, n*sum);
+}
+
 int main(int argc, const char * argv[]) {
 //    up_and_down(1);
     
@@ -31,7 +53,7 @@ int main(int argc, const char * argv[]) {
     queue_example();
     tree_example();
     stack_example();
-
+    
     return 0;
 }
 
