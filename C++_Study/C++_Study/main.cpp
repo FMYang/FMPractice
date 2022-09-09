@@ -11,6 +11,7 @@
 // 注意：iostream后面没有.h，这是C++的风格
 #include <iostream>
 #include "marray.hpp"
+#include "mFunc.hpp"
 
 /** 名称空间编译指令，类、函数和变量是C++编译器的标准组件，它们现在都放置在名称空间std中 */
 using namespace std; // using为编译指令
@@ -30,6 +31,7 @@ int main(int argc, const char * argv[]) {
 //    cout << "you have " << cars << " cars." << endl;
     
     array_example();
+    func_example();
     
     return 0;
 }

@@ -42,6 +42,18 @@ int f2(int n, int sum) {
     return f2(n-1, n*sum);
 }
 
+// 求和
+int f3(int n) {
+    if(n == 0) return 0;
+    return n+f3(n-1);
+}
+
+// 斐契那波数列
+int f4(int n) {
+    if(n == 0 || n == 1) return 1;
+    return f4(n-1) + f4(n-2);
+}
+
 int main(int argc, const char * argv[]) {
 //    up_and_down(1);
     
@@ -53,7 +65,7 @@ int main(int argc, const char * argv[]) {
     queue_example();
     tree_example();
     stack_example();
-    
+
     return 0;
 }
 

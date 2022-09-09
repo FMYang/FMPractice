@@ -81,7 +81,15 @@
 		E42B8AF528AB7B2700048F89 /* Learn_C */ = {
 			isa = PBXGroup;
 			children = (
+				E4A1086628CADA8B009865AA /* source */,
 				E42B8AF628AB7B2700048F89 /* main.c */,
+			);
+			path = Learn_C;
+			sourceTree = "<group>";
+		};
+		E4A1086628CADA8B009865AA /* source */ = {
+			isa = PBXGroup;
+			children = (
 				E42B8AFD28ABA7F700048F89 /* pointer.h */,
 				E42B8AFE28ABA7F700048F89 /* pointer.c */,
 				E42B8B0028ABA96700048F89 /* array.h */,
@@ -99,7 +107,7 @@
 				E4A1082028C5CC8E009865AA /* stack.h */,
 				E4A1082128C5CC8E009865AA /* stack.c */,
 			);
-			path = Learn_C;
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
