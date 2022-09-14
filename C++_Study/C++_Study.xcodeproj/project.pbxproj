@@ -10,6 +10,7 @@
 		E4A1085A28C8750A009865AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4A1085928C8750A009865AA /* main.cpp */; };
 		E4A1086528C89493009865AA /* marray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4A1086328C89493009865AA /* marray.cpp */; };
 		E4A1086A28CB3343009865AA /* mFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4A1086828CB3343009865AA /* mFunc.cpp */; };
+		E4BAD7E728D1C0BD007ABD3F /* mVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD7E528D1C0BD007ABD3F /* mVector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		E4A1086428C89493009865AA /* marray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = marray.hpp; sourceTree = "<group>"; };
 		E4A1086828CB3343009865AA /* mFunc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mFunc.cpp; sourceTree = "<group>"; };
 		E4A1086928CB3343009865AA /* mFunc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mFunc.hpp; sourceTree = "<group>"; };
+		E4BAD7E528D1C0BD007ABD3F /* mVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mVector.cpp; sourceTree = "<group>"; };
+		E4BAD7E628D1C0BD007ABD3F /* mVector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mVector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				E4A1086428C89493009865AA /* marray.hpp */,
 				E4A1086828CB3343009865AA /* mFunc.cpp */,
 				E4A1086928CB3343009865AA /* mFunc.hpp */,
+				E4BAD7E528D1C0BD007ABD3F /* mVector.cpp */,
+				E4BAD7E628D1C0BD007ABD3F /* mVector.hpp */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BAD7E728D1C0BD007ABD3F /* mVector.cpp in Sources */,
 				E4A1085A28C8750A009865AA /* main.cpp in Sources */,
 				E4A1086A28CB3343009865AA /* mFunc.cpp in Sources */,
 				E4A1086528C89493009865AA /* marray.cpp in Sources */,
