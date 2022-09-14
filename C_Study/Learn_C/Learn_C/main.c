@@ -8,6 +8,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <math.h>
+#include <string.h>
 
 #include "pointer.h"
 #include "array.h"
@@ -65,7 +67,7 @@ int main(int argc, const char * argv[]) {
     queue_example();
     tree_example();
     stack_example();
-
+    
     return 0;
 }
 

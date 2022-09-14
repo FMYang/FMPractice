@@ -32,6 +32,5 @@ int main(int argc, const char * argv[]) {
     
     array_example();
     func_example();
-    
     return 0;
 }

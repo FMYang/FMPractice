@@ -166,9 +166,9 @@ void treepfun(int data) {
 // 遍历树，对每个节点应用一个函数
 static void InOrder(const TrNode *root, void(*pfun)(int item)) {
     if(root != NULL) {
-        (*pfun)(root->data); // 1.先序遍历（根左右）
+//        (*pfun)(root->data); // 1.先序遍历（根左右）
         InOrder(root->left, treepfun);
-//        (*pfun)(root->data); // 2.中序遍历（左根右）
+        (*pfun)(root->data); // 2.中序遍历（左根右）
         InOrder(root->right, pfun);
 //        (*pfun)(root->data); // 3.后序遍历（左右根）
     }
@@ -225,8 +225,8 @@ void tree_example1(void) {
 void tree_example2(void) {
     Tree tree;
     InitializeTree(&tree);
-    int elements[5] = { 4, 2, 1, 3, 7};
-    for(int i=0; i<5; i++) {
+    int elements[7] = { 4, 2, 1, 3, 7, 5, 8};
+    for(int i=0; i<7; i++) {
         AddTreeItem(&elements[i], &tree);
     }
     TraverseTree(&tree, treepfun);
@@ -234,6 +234,6 @@ void tree_example2(void) {
 
 void tree_example(void) {
     printf("============= 树 ==============\n");
-    tree_example1();
+    tree_example2();
     printf("============= End ==============\n\n");
 }
