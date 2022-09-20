@@ -54,9 +54,21 @@ void pointer_example2(void) {
     }
 }
 
+int func1(int a, int b) {
+    return a+b;
+}
+
+void pointer_example3(void) {
+    // 函数指针的等价写法，函数名表示函数地址
+    int (*f)(int, int) = func1;
+    int (*f1)(int, int) = &func1;
+    printf("%d %d\n", f(10, 9), f1(10,5));
+}
+
 void pointer_example(void) {
     printf("============= 指针 ==============\n");
 //    pointer_example1();
-    pointer_example2();
+//    pointer_example2();
+    pointer_example3();
     printf("============= End ==============\n\n");
 }
