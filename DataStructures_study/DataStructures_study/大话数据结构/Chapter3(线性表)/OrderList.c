@@ -53,6 +53,7 @@ void printList(SqList L) {
 }
 
 void Order_Example(void) {
+    printf("========== 顺序表 ===========\n");
     SqList list = {.data = { 1, 2, 3, 4, 5, 6, 7 }, .length = 7};
     // 1、查
     int result = 0;
@@ -65,4 +66,5 @@ void Order_Example(void) {
     printf("在第2个位置插入元素2\n");
     Order_ListInsert(&list, 2, 2);
     printList(list);
+    printf("========== End ===========\n\n");
 }

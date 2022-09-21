@@ -10,6 +10,8 @@
 		E4A1084328C5EBAE009865AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A1084228C5EBAE009865AA /* main.m */; };
 		E4BAD81428D96CDE007ABD3F /* OrderList.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD81328D96CDE007ABD3F /* OrderList.c */; };
 		E4BAD81728D96CED007ABD3F /* SingleList.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD81628D96CED007ABD3F /* SingleList.c */; };
+		E4BAD81D28DB0715007ABD3F /* OrderStack.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD81C28DB0715007ABD3F /* OrderStack.c */; };
+		E4BAD82028DB071F007ABD3F /* ListStack.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD81F28DB071F007ABD3F /* ListStack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		E4BAD81328D96CDE007ABD3F /* OrderList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OrderList.c; sourceTree = "<group>"; };
 		E4BAD81528D96CED007ABD3F /* SingleList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleList.h; sourceTree = "<group>"; };
 		E4BAD81628D96CED007ABD3F /* SingleList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SingleList.c; sourceTree = "<group>"; };
+		E4BAD81B28DB0715007ABD3F /* OrderStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderStack.h; sourceTree = "<group>"; };
+		E4BAD81C28DB0715007ABD3F /* OrderStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OrderStack.c; sourceTree = "<group>"; };
+		E4BAD81E28DB071F007ABD3F /* ListStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListStack.h; sourceTree = "<group>"; };
+		E4BAD81F28DB071F007ABD3F /* ListStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ListStack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 		E4BAD80928D96C14007ABD3F /* Chapter4(栈和队列) */ = {
 			isa = PBXGroup;
 			children = (
+				E4BAD81B28DB0715007ABD3F /* OrderStack.h */,
+				E4BAD81C28DB0715007ABD3F /* OrderStack.c */,
+				E4BAD81E28DB071F007ABD3F /* ListStack.h */,
+				E4BAD81F28DB071F007ABD3F /* ListStack.c */,
 			);
 			path = "Chapter4(栈和队列)";
 			sourceTree = "<group>";
@@ -196,6 +206,8 @@
 				E4BAD81728D96CED007ABD3F /* SingleList.c in Sources */,
 				E4BAD81428D96CDE007ABD3F /* OrderList.c in Sources */,
 				E4A1084328C5EBAE009865AA /* main.m in Sources */,
+				E4BAD81D28DB0715007ABD3F /* OrderStack.c in Sources */,
+				E4BAD82028DB071F007ABD3F /* ListStack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

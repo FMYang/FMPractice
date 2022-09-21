@@ -10,11 +10,6 @@
 
 #include <stdio.h>
 
-// 线性表链式存储结构-单链表
-typedef struct node {
-    int data;
-    struct node *next;
-} Node;
-typedef Node *LinkList;
+void LinkList_example(void);
 
 #endif /* SingleList_h */
