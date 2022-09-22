@@ -10,13 +10,6 @@
 
 #include <stdio.h>
 
-// 线性表顺序存储结构，就是数组
-#define MAXSIZE 20
-typedef struct {
-    int data[MAXSIZE];
-    int length;
-} SqList;
-
 void Order_Example(void);
 
 #endif /* OrderList_h */

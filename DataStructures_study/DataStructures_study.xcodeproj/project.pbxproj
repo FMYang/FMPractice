@@ -12,6 +12,8 @@
 		E4BAD81728D96CED007ABD3F /* SingleList.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD81628D96CED007ABD3F /* SingleList.c */; };
 		E4BAD81D28DB0715007ABD3F /* OrderStack.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD81C28DB0715007ABD3F /* OrderStack.c */; };
 		E4BAD82028DB071F007ABD3F /* ListStack.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD81F28DB071F007ABD3F /* ListStack.c */; };
+		E4BAD82328DC03E0007ABD3F /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD82228DC03E0007ABD3F /* Queue.c */; };
+		E4BAD82628DC3987007ABD3F /* CString.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD82528DC3987007ABD3F /* CString.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		E4BAD81C28DB0715007ABD3F /* OrderStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OrderStack.c; sourceTree = "<group>"; };
 		E4BAD81E28DB071F007ABD3F /* ListStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListStack.h; sourceTree = "<group>"; };
 		E4BAD81F28DB071F007ABD3F /* ListStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ListStack.c; sourceTree = "<group>"; };
+		E4BAD82128DC03E0007ABD3F /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		E4BAD82228DC03E0007ABD3F /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		E4BAD82428DC3987007ABD3F /* CString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CString.h; sourceTree = "<group>"; };
+		E4BAD82528DC3987007ABD3F /* CString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CString.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,8 @@
 				E4BAD81C28DB0715007ABD3F /* OrderStack.c */,
 				E4BAD81E28DB071F007ABD3F /* ListStack.h */,
 				E4BAD81F28DB071F007ABD3F /* ListStack.c */,
+				E4BAD82128DC03E0007ABD3F /* Queue.h */,
+				E4BAD82228DC03E0007ABD3F /* Queue.c */,
 			);
 			path = "Chapter4(栈和队列)";
 			sourceTree = "<group>";
@@ -114,6 +122,8 @@
 		E4BAD80A28D96C2A007ABD3F /* Chapter5(字符串) */ = {
 			isa = PBXGroup;
 			children = (
+				E4BAD82428DC3987007ABD3F /* CString.h */,
+				E4BAD82528DC3987007ABD3F /* CString.c */,
 			);
 			path = "Chapter5(字符串)";
 			sourceTree = "<group>";
@@ -206,6 +216,8 @@
 				E4BAD81728D96CED007ABD3F /* SingleList.c in Sources */,
 				E4BAD81428D96CDE007ABD3F /* OrderList.c in Sources */,
 				E4A1084328C5EBAE009865AA /* main.m in Sources */,
+				E4BAD82328DC03E0007ABD3F /* Queue.c in Sources */,
+				E4BAD82628DC3987007ABD3F /* CString.c in Sources */,
 				E4BAD81D28DB0715007ABD3F /* OrderStack.c in Sources */,
 				E4BAD82028DB071F007ABD3F /* ListStack.c in Sources */,
 			);

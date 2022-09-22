@@ -4,7 +4,8 @@
 //
 //  Created by yfm on 2022/9/20.
 //
-//  带头节点的单链表
+//  线性表链式存储结构-单链表
+//  带头节点
 
 #include "SingleList.h"
 #include <stdlib.h>
@@ -18,7 +19,7 @@ typedef struct node {
 typedef Node *LinkList;
 
 // 返回链表中第i个元素的值
-int LinkList_GetElem(LinkList L, int i, int *e) {
+static int LinkList_GetElem(LinkList L, int i, int *e) {
     int k = 1;
     LinkList p = L->next;
     while (p && k < i) {
@@ -31,7 +32,7 @@ int LinkList_GetElem(LinkList L, int i, int *e) {
 }
 
 // 在链表的第i个位置之前插入元素e
-int LinkList_Insert(LinkList *L, int i, int e) {
+static int LinkList_Insert(LinkList *L, int i, int e) {
     int k = 1;
     LinkList p = *L, s;
     while (p && k < i) {
@@ -47,7 +48,7 @@ int LinkList_Insert(LinkList *L, int i, int e) {
 }
 
 // 删除链表的第i个位置的元素，并用e返回其值
-int LinkList_delete(LinkList *L, int i, int *e) {
+static int LinkList_delete(LinkList *L, int i, int *e) {
     int k = 1;
     LinkList p = *L, q;
     while (p && k < i-1) {
@@ -63,7 +64,7 @@ int LinkList_delete(LinkList *L, int i, int *e) {
 }
 
 // 头插法，新节点加载头节点的下一个
-void LinkList_CreateHead(LinkList *L, int n) {
+static void LinkList_CreateHead(LinkList *L, int n) {
     *L = malloc(sizeof(LinkList));
     (*L)->next = NULL;
     LinkList p;
@@ -77,7 +78,7 @@ void LinkList_CreateHead(LinkList *L, int n) {
 }
 
 // 尾插法，新的节点加在最后一个
-void LinkList_CreateTail(LinkList *L, int n) {
+static void LinkList_CreateTail(LinkList *L, int n) {
     *L = malloc(sizeof(LinkList));
     (*L)->next = NULL;
     LinkList p = *L;
@@ -92,14 +93,14 @@ void LinkList_CreateTail(LinkList *L, int n) {
 }
 
 // 初始化链表
-void LinkList_Create(LinkList *L) {
+static void LinkList_Create(LinkList *L) {
     // 头节点
     *L = malloc(sizeof(LinkList));
     (*L)->next = NULL;
 }
 
 // 将链表L置为空表
-int LinkList_Clear(LinkList *L) {
+static int LinkList_Clear(LinkList *L) {
     LinkList p, q;
     p = (*L)->next; // p指向第一个节点
     while (p) {

@@ -4,6 +4,8 @@
 //
 //  Created by yfm on 2022/9/21.
 //
+//  栈的链式存储结构
+
 
 #include "ListStack.h"
 #include <stdlib.h>

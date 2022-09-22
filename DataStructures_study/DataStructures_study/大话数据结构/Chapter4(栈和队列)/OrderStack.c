@@ -4,6 +4,7 @@
 //
 //  Created by yfm on 2022/9/21.
 //
+//  栈的顺序存储结构
 
 #include "OrderStack.h"
 

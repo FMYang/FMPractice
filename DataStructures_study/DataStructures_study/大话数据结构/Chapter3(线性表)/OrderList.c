@@ -4,11 +4,19 @@
 //
 //  Created by yfm on 2022/9/20.
 //
+//  线性表的顺序存储
 
 #include "OrderList.h"
 
+// 线性表顺序存储结构，就是数组
+#define MAXSIZE 20
+typedef struct {
+    int data[MAXSIZE];
+    int length;
+} SqList;
+
 // 获取线性表第i个元素
-int Order_GetElem(SqList L, int i, int *e) {
+static int Order_GetElem(SqList L, int i, int *e) {
     if(L.length == 0 || i < 1 || i > L.length) {
         return 0;
     }
@@ -17,7 +25,7 @@ int Order_GetElem(SqList L, int i, int *e) {
 }
 
 // 在第i个位置插入元素
-int Order_ListInsert(SqList *L, int i, int e) {
+static int Order_ListInsert(SqList *L, int i, int e) {
     if(L->length == MAXSIZE || i < 1 || i > L->length) {
         return 0;
     }
@@ -31,7 +39,7 @@ int Order_ListInsert(SqList *L, int i, int e) {
     return 1;
 }
 
-int Order_ListDelete(SqList *L, int i, int *e) {
+static int Order_ListDelete(SqList *L, int i, int *e) {
     if(L->length == 0 || i < 1 || i > L->length) {
         return 0;
     }
@@ -45,7 +53,7 @@ int Order_ListDelete(SqList *L, int i, int *e) {
     return 1;
 }
 
-void printList(SqList L) {
+static void printList(SqList L) {
     for(int i = 0; i<L.length; i++) {
         printf("%d ", L.data[i]);
     }
