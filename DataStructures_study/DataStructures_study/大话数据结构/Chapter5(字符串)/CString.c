@@ -40,7 +40,7 @@ static int Index(char *S, char *T, int pos) {
 }
 
 // KMP算法
-static void KMP_GetNext(char *T, int *next) {
+static void KMP_GetNext(char *T, int next[]) {
     int lent = (int)strlen(T);
     next[0] = 0;
     int i = 1;
@@ -75,8 +75,6 @@ static int KMP_Index(char *S, char *T, int pos) {
             if(j == lent) {
                 // 全匹配
                 return i - j;
-            } else {
-                j = next[j - 1];
             }
         } else if(i < lens && T[j] != S[i]) {
             // 不匹配
@@ -92,9 +90,10 @@ static int KMP_Index(char *S, char *T, int pos) {
 
 
 void String_Example(void) {
-    char *s = "ababaaabaa";
-    char *t = "aa";
-//    char *tt = "ABCABCD";
+//    char *s = "ababaaabaa";
+//    char *t = "aabaa";
+    char *s = "ABCDABCABCABABCABCDA";
+    char *t = "ABCABCD";
     int r = KMP_Index(s, t, 0);
 //    int r = Index(s, t, 0);
     if(r == -1) {
