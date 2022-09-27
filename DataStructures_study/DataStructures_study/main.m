@@ -5,13 +5,14 @@
 //  Created by yfm on 2022/9/5.
 //
 
-#import <Foundation/Foundation.h>
-#import "OrderList.h"
-#import "SingleList.h"
-#import "OrderStack.h"
-#import "ListStack.h"
-#import "Queue.h"
+#include <Foundation/Foundation.h>
+#include "OrderList.h"
+#include "SingleList.h"
+#include "OrderStack.h"
+#include "ListStack.h"
+#include "Queue.h"
 #include "CString.h"
+#include "Tree.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -21,6 +22,7 @@ int main(int argc, const char * argv[]) {
         LinkStack_Example();
         Queue_Example();
         String_Example();
+        Tree_Example();
     }
     return 0;
 }

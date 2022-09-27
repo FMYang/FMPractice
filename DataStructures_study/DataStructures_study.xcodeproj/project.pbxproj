@@ -14,6 +14,7 @@
 		E4BAD82028DB071F007ABD3F /* ListStack.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD81F28DB071F007ABD3F /* ListStack.c */; };
 		E4BAD82328DC03E0007ABD3F /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD82228DC03E0007ABD3F /* Queue.c */; };
 		E4BAD82628DC3987007ABD3F /* CString.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD82528DC3987007ABD3F /* CString.c */; };
+		E4BAD82C28E2FA7D007ABD3F /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD82B28E2FA7D007ABD3F /* Tree.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		E4BAD82228DC03E0007ABD3F /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
 		E4BAD82428DC3987007ABD3F /* CString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CString.h; sourceTree = "<group>"; };
 		E4BAD82528DC3987007ABD3F /* CString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CString.c; sourceTree = "<group>"; };
+		E4BAD82A28E2FA7D007ABD3F /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		E4BAD82B28E2FA7D007ABD3F /* Tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 		E4BAD80B28D96C3B007ABD3F /* Chapter6(树) */ = {
 			isa = PBXGroup;
 			children = (
+				E4BAD82A28E2FA7D007ABD3F /* Tree.h */,
+				E4BAD82B28E2FA7D007ABD3F /* Tree.c */,
 			);
 			path = "Chapter6(树)";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 				E4BAD82628DC3987007ABD3F /* CString.c in Sources */,
 				E4BAD81D28DB0715007ABD3F /* OrderStack.c in Sources */,
 				E4BAD82028DB071F007ABD3F /* ListStack.c in Sources */,
+				E4BAD82C28E2FA7D007ABD3F /* Tree.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
