@@ -13,16 +13,18 @@
 #include "Queue.h"
 #include "CString.h"
 #include "Tree.h"
+#include "Graph.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Order_Example();
-        LinkList_example();
-        OrderStack_Example();
-        LinkStack_Example();
-        Queue_Example();
-        String_Example();
-        Tree_Example();
+//        Order_Example();
+//        LinkList_example();
+//        OrderStack_Example();
+//        LinkStack_Example();
+//        Queue_Example();
+//        String_Example();
+//        Tree_Example();
+        Graph_Example();
     }
     return 0;
 }
